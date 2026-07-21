@@ -1,57 +1,35 @@
 ---
-title: "Week 3 Worklog"
+title: "Worklog Week 3"
 date: 2024-01-01
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## Objectives
 
-### Week 3 Objectives:
+* Gắn Elastic IP cho EC2 để địa chỉ truy cập ổn định hơn
+* Siết Security Group: chỉ mở các cổng thực sự cần thiết
+* Tạo RDS MySQL cơ bản, kết nối từ EC2 và thao tác CRUD bằng SQL
+* Tìm hiểu backup tự động / snapshot của RDS; viết nhật ký lỗi kết nối DB
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+## Task table (04/05 – 08/05/2026)
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Tasks | Start | End |
+|-----|-------|-------|-----|
+| 2 | - Cấp phát và gắn Elastic IP cho EC2<br>- Kiểm tra website vẫn truy cập được qua EIP<br>- So sánh Public IP động và Elastic IP | 04/05/2026 | 04/05/2026 |
+| 3 | - Rà soát Security Group hiện tại<br>- Chỉ giữ rule cần thiết (SSH, HTTP…)<br>- Hạn chế nguồn SSH nếu có thể<br>- Gỡ rule thừa / quá rộng | 05/05/2026 | 05/05/2026 |
+| 4 | - Tạo RDS MySQL (Free Tier)<br>- Cấu hình DB subnet / Security Group cho RDS<br>- Chỉ cho phép EC2 (hoặc SG của EC2) kết nối cổng 3306<br>- Thử kết nối từ EC2 bằng mysql client | 06/05/2026 | 06/05/2026 |
+| 5 | - Tạo database/table mẫu<br>- Thực hành CRUD bằng SQL (INSERT/SELECT/UPDATE/DELETE)<br>- Tìm hiểu Automated backup và Manual snapshot của RDS | 07/05/2026 | 07/05/2026 |
+| 6 | - Viết nhật ký lỗi khi kết nối DB:<br>  + SG, endpoint, credential, VPC/subnet…<br>- Tổng kết lab Elastic IP – SG – RDS | 08/05/2026 | 08/05/2026 |
 
+## Outcomes
 
-### Week 3 Achievements:
+* Đã gắn Elastic IP cho EC2 để địa chỉ truy cập ổn định hơn.
+* Đã chỉnh lại Security Group, chỉ mở các cổng cần thiết.
+* Đã tạo RDS MySQL (Free Tier) và kết nối từ EC2.
+* Đã thao tác CRUD đơn giản bằng SQL trên RDS.
+* Đã tìm hiểu backup tự động và snapshot của RDS ở mức cơ bản.
+* Đã ghi lại một số lỗi khi kết nối DB và cách xử lý.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Sau tuần 3, tôi đã kết nối được EC2 với RDS MySQL và làm CRUD cơ bản.

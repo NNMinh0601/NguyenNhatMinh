@@ -1,57 +1,34 @@
 ---
-title: "Week 8 Worklog"
+title: "Worklog Week 8"
 date: 2024-01-01
-weight: 1
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## Objectives
 
-### Week 8 Objectives:
+* Khởi động dự án nhóm WebFood: thống nhất ý tưởng và phân công công việc
+* Phân tích yêu cầu ba nhóm người dùng: Customer, Merchant, Admin
+* Lựa chọn stack ReactJS + Node.js phù hợp với kiến trúc Serverless trên AWS
+* Thiết kế sơ đồ kiến trúc trên draw.io và trình bày với mentor FCAJ để nhận góp ý
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+## Task table (08/06 – 12/06/2026)
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Tasks | Start | End |
+|-----|-------|-------|-----|
+| 2 | - Họp nhóm dự án WebFood<br>- Thống nhất ý tưởng sản phẩm<br>- Phân chia công việc cho từng thành viên | 08/06/2026 | 08/06/2026 |
+| 3 | - Phân tích use case Customer<br>- Phân tích use case Merchant<br>- Liệt kê chức năng ưu tiên cho MVP | 09/06/2026 | 09/06/2026 |
+| 4 | - Phân tích use case Admin<br>- Chốt công nghệ: ReactJS + Node.js<br>- Thảo luận phạm vi MVP (đặt hàng, thanh toán, thông báo…) | 10/06/2026 | 10/06/2026 |
+| 5 | - Thiết kế kiến trúc AWS Serverless trên draw.io<br>  + API Gateway, Lambda, DynamoDB/S3<br>  + SQS, EventBridge, SES…<br>- Tham khảo lộ trình Serverless trên Cloud Journey | 11/06/2026 | 11/06/2026 |
+| 6 | - Trình bày kiến trúc với mentor FCAJ<br>- Ghi nhận góp ý và điều chỉnh sơ đồ / phạm vi MVP | 12/06/2026 | 12/06/2026 |
 
+## Outcomes
 
-### Week 8 Achievements:
+* Đã họp nhóm, thống nhất ý tưởng WebFood và phân công công việc.
+* Đã phân tích yêu cầu cho Customer, Merchant và Admin.
+* Đã chọn ReactJS + Node.js để phát triển hệ thống.
+* Đã vẽ sơ đồ kiến trúc Serverless trên draw.io.
+* Đã trình bày với mentor và nhận góp ý để chỉnh phạm vi MVP.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Sau tuần 8, nhóm đã có ý tưởng, phân công và sơ đồ kiến trúc để bắt đầu code.

@@ -1,57 +1,33 @@
 ---
-title: "Week 12 Worklog"
+title: "Worklog Week 12"
 date: 2024-01-01
-weight: 2
+weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## Objectives
 
-### Week 12 Objectives:
+* Rà soát và kiểm thử toàn bộ hệ thống WebFood theo từng vai trò người dùng
+* Hoàn thiện tài liệu kỹ thuật: kiến trúc, SAM Template, README, hướng dẫn Workshop
+* Hoàn thành bộ báo cáo Hugo FCAJ (Worklog, Proposal, Workshop, Blog, Tự đánh giá, Feedback)
+* Tổng kết kết quả đạt được và rút bài học kinh nghiệm sau 12 tuần thực tập
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+## Task table (06/07 – 30/07/2026)
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Tasks | Start | End |
+|-----|-------|-------|-----|
+| 2 | - Rà soát chức năng Customer / Merchant / Admin<br>- Fix bug ưu tiên cao còn lại sau Smoke Test<br>- Kiểm thử lại thanh toán, email, thông báo realtime | 06/07/2026 | 10/07/2026 |
+| 3 | - Hoàn thiện tài liệu kiến trúc và sơ đồ draw.io<br>- Chuẩn hóa SAM Template và biến môi trường<br>- Cập nhật README + tài liệu Workshop | 13/07/2026 | 17/07/2026 |
+| 4 | - Hoàn thiện Worklog 12 tuần<br>- Hoàn thiện Proposal, Workshop, Blog<br>- Viết Tự đánh giá và Feedback chương trình FCAJ | 20/07/2026 | 24/07/2026 |
+| 5 | - Tổng kết dự án WebFood<br>- Đánh giá kết quả / hạn chế / hướng phát triển<br>- Rút bài học về Serverless và làm việc nhóm | 27/07/2026 | 29/07/2026 |
+| 6 | - Rà soát lần cuối hồ sơ báo cáo<br>- Hoàn tất theo yêu cầu trường và chương trình FCAJ | 30/07/2026 | 30/07/2026 |
 
+## Outcomes
 
-### Week 12 Achievements:
+* Đã rà soát lại hệ thống WebFood theo các vai trò Customer, Merchant, Admin.
+* Đã hoàn thiện tài liệu kỹ thuật: kiến trúc, SAM, README, Workshop.
+* Đã hoàn thành báo cáo Hugo FCAJ (Worklog, Proposal, Workshop, Blog, Tự đánh giá, Feedback).
+* Đã tổng kết kết quả, hạn chế và bài học sau 12 tuần thực tập.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Sau tuần 12, tôi đã hoàn tất demo WebFood và hồ sơ báo cáo thực tập.

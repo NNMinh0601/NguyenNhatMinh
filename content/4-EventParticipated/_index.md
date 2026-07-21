@@ -1,44 +1,52 @@
 ---
-title: "Events Participated"
+title: "Meetup events attended"
 date: 2024-01-01
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** for your report, including this warning.
-{{% /notice %}}
+Alongside weekly labs, I attended **three Meetups** at the AWS Vietnam office (Bitexco, floor 26) to **learn practical perspectives**: how others present tech, products, soft skills, and career paths. My goal was to collect knowledge I can reuse in future projects.
 
-> In this section, you should list and describe in detail the events you have participated in during your internship or work experience.  
-> 
-> Each event should be presented in the format Event 1, Event 2, Event 3…, along with the following details:
-> * Event name
-> * Date and time
-> * Location (if applicable)
-> * Your role in the event (attendee, event support, speaker, etc.)
-> * A brief description of the event’s content and main activities
-> * Outcomes or value gained (lessons learned, new skills, contribution to the team/project)
-> * This listing helps demonstrate your actual participation as well as the soft skills and experience you have gained from each event.
+### [Meetup event on 30 May 2026](4.1-Event1/)
 
-During my internship, I participated in two events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
+| | |
+|---|---|
+| **Event** | AWS Community Day / First Cloud Journey AI Meetup |
+| **Date** | 30 May 2026 |
+| **Venue** | AWS Vietnam Office — 26th Floor, Bitexco, 2 Hai Trieu, Saigon Ward, HCMC |
+| **My role** | Attendee |
 
-### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+A mixed day: AWS learning (Cloud Quest, Floci), an AI hackathon demo, a community product pitch, soft skills, and DevOps mindset.  
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
-
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
-
-&emsp;**Role:** Attendee  
+→ [Read detailed notes for session 1](4.1-Event1/)
 
 ---
 
-### [Event 2](4.2-Event2/)  
-&emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
+### [Meetup event on 6 June 2026](4.2-Event2/)
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+| | |
+|---|---|
+| **Event** | First Cloud Journey AI Meetup |
+| **Date** | 6 June 2026 |
+| **Venue** | AWS Vietnam Office — 26th Floor, Bitexco, 2 Hai Trieu, Saigon Ward, HCMC |
+| **My role** | Attendee |
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+Deeper talks: Docker, WAF + ML, realtime WebSockets, GraphRAG, teamwork, and Cloud/DevOps career paths.  
 
-&emsp;**Role:** Attendee  
+→ [Read detailed notes for session 2](4.2-Event2/)
+
+---
+
+### [Meetup event on 11 July 2026](4.3-Event3/)
+
+| | |
+|---|---|
+| **Event** | First Cloud Journey AI Meetup |
+| **Date** | 11 July 2026 |
+| **Venue** | AWS Vietnam Office — 26th Floor, Bitexco, 2 Hai Trieu, Saigon Ward, HCMC |
+| **My role** | Attendee |
+
+Opened with the **Cloud Architect** contest (KLKAT vs Ngũ Đại Hiệp), then talks on Cloud Practitioner exam prep, AWS Security Agent, and SLA & Monitoring.  
+
+→ [Read detailed notes for session 3](4.3-Event3/)

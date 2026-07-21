@@ -1,57 +1,37 @@
 ---
-title: "Week 1 Worklog"
+title: "Worklog Week 1"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+## Objectives
 
-### Week 1 Objectives:
+* Làm quen giao diện AWS Management Console
+* Tạo tài khoản AWS Free Tier và nắm các lưu ý về Billing / Free Tier
+* Tìm hiểu IAM cơ bản: User, Group, Policy và thực hành tạo quyền đơn giản
+* Tạo bucket S3, thực hành upload/download file
+* Xem hướng dẫn lab đầu khóa và ghi chú các dịch vụ phổ biến (EC2, S3, VPC, IAM)
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+## Task table (20/04 – 24/04/2026)
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Tasks | Start | End |
+|-----|-------|-------|-----|
+| 2 | - Thực hiện tạo tài khoản AWS Free Tier<br>- Kích hoạt tài khoản, chọn Region làm việc<br>- Xem Billing Dashboard và ghi chú giới hạn Free Tier | 20/04/2026 | 20/04/2026 |
+| 3 | - Tìm hiểu IAM cơ bản:<br>  + User, Group, Policy<br>- Thực hành tạo IAM User / Group<br>- Gắn policy đơn giản và kiểm tra quyền truy cập Console | 21/04/2026 | 21/04/2026 |
+| 4 | - Tạo bucket Amazon S3<br>- Thực hành upload và download file<br>- Quan sát Object URL, quyền truy cập object ở mức cơ bản | 22/04/2026 | 22/04/2026 |
+| 5 | - Tiếp tục khám phá Console<br>- Ghi chú tổng quan các dịch vụ phổ biến:<br>  + EC2, S3, VPC, IAM<br>- Đối chiếu nhanh vai trò từng dịch vụ trong kiến trúc ứng dụng | 23/04/2026 | 23/04/2026 |
+| 6 | - Ôn lại thao tác Console, IAM và S3 đã thực hành<br>- Tổng hợp ghi chú lab đầu khóa<br>- Liệt kê các lab sẽ làm ở tuần 2 (VPC, EC2, Security Group) | 24/04/2026 | 24/04/2026 |
 
+## Outcomes
 
-### Week 1 Achievements:
+* Đã làm quen môi trường thực tập và giao diện AWS Management Console.
+* Đã biết cách chọn Region, tìm dịch vụ và xem Billing cơ bản.
+* Đã tạo tài khoản AWS Free Tier thành công.
+* Đã tìm hiểu IAM cơ bản: User, Group, Policy.
+* Đã thực hành tạo user/group và gắn quyền đơn giản.
+* Đã tạo bucket S3, upload và download file được.
+* Đã ghi chú các dịch vụ phổ biến: EC2, S3, VPC, IAM.
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+Sau tuần 1, tôi đã biết đăng nhập Console, tạo tài khoản Free Tier và thao tác IAM, S3 ở mức cơ bản.

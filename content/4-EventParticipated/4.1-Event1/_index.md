@@ -1,126 +1,65 @@
 ---
-title: "Event 1"
-date: 2024-01-01
+title: "Meetup event on 30 May 2026"
+date: 2026-05-30
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+# Notes after the Meetup on 30 May 2026
 
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+On **30 May 2026** I attended almost every session at the AWS Bitexco office as a listener. The room was full of First Cloud Journey shirts, and the agenda mixed technical talks with soft skills, so it never felt stuck on a single topic.
 
-### Event Objectives
+**Quick facts:** AWS Community Day / FCAJ AI Meetup · Attendee · [Event photos on Drive](https://drive.google.com/drive/folders/15tJn3pkEWgCqcvF6A7cUhMMsNM6Qt0zo)
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+### Sessions I remember most
 
-### Speakers
+#### Huỳnh Thái Linh — Cloud Quest & Floci
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+The opening talk reminded me that learning AWS is more than clicking the Console: Cloud Quest gives a path, Floci/LocalStack help locally — but you still must understand limits versus real AWS, especially **billing**.
 
-### Key Highlights
+![Huỳnh Thái Linh — Cloud Quest & Floci](/images/4-EventParticipated/4.1-Event1/01-huynh-thai-linh.jpg)
 
-#### Identifying the drawbacks of legacy application architecture
+#### Team The Ballers — Hackathon & SynthHunter
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+**Huỳnh Anh Khương, Mai Quốc Anh, Nguyễn Trần Minh Quân** told a very honest hackathon story (bugs, sleep debt…) and demoed **SynthHunter** for human/AI voice detection. I learned how to package problem → solution when presenting a team project.
 
-#### Transitioning to modern application architecture – Microservices
+![The Ballers — Hackathon](/images/4-EventParticipated/4.1-Event1/02-the-ballers-hackathon.jpg)
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+![SynthHunter — AI Voice Verification](/images/4-EventParticipated/4.1-Event1/03-synthhunter.jpg)
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Nguyễn Thị Quỳnh Như — Confidence
 
-#### Domain-Driven Design (DDD)
+Not a tech talk, but useful: confidence is practiced through small daily actions — timely while I was doing labs and teamwork.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+![Nguyễn Thị Quỳnh Như — Confidence](/images/4-EventParticipated/4.1-Event1/04-quynh-nhu-confidence.jpg)
 
-#### Event-Driven Architecture
+#### Nghĩa Trần — Tử vi Đại Việt
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+A community product + GenAI angle. I paid more attention to how they framed product vision/differentiation than to a pure tech list.
 
-#### Compute Evolution
+![Nghĩa Trần — Tử vi Đại Việt](/images/4-EventParticipated/4.1-Event1/05-nghia-tran-tuvi.jpg)
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+#### Trần Minh Quân — DevOps Before Disaster
 
-#### Amazon Q Developer
+Core idea: project risk is an iceberg. Think DevOps **before** failure, not only after — a habit I want to carry into any future deployment.
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+![Trần Minh Quân — DevOps Before Disaster](/images/4-EventParticipated/4.1-Event1/06-tran-minh-quan-devops.jpg)
 
-### Key Takeaways
+#### Khac Uy Pham — Procrastination
 
-#### Design Mindset
+Procrastination as fear more than laziness. “GO BUILD” pushed me not to wait until I feel “ready enough” to start the next lab/week.
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+![Khac Uy Pham — Procrastination](/images/4-EventParticipated/4.1-Event1/07-khac-uy-pham-procrastination.jpg)
 
-#### Technical Architecture
+### Group photo
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+![Community Day group photo](/images/4-EventParticipated/4.1-Event1/08-group-photo.jpg)
 
-#### Modernization Strategy
+### What I took home
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+1. **Cost awareness** habits on Free Tier.  
+2. A clearer way to **tell a project story** (hackathon/AI).  
+3. A reminder that **soft skills + DevOps mindset** matter alongside AWS clicks.  
 
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
-
-### Event Experience
-
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
-
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
-
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+Community Day showed me FCAJ is bigger than weekly labs — that was my favorite takeaway.

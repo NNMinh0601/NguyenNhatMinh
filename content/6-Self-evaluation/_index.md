@@ -6,34 +6,41 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+I am **Nguyễn Nhật Minh** (class **22DTHE8**), an intern in the **First Cloud AI Journey** program at **AWS Viet Nam** from **17/04/2026** to **30/07/2026**.
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+My main goal this internship was not to “own a product”, but to **build enough AWS foundations and working habits** so I can join real cloud / backend projects later with more confidence. So I focused on weekly labs, error–fix notes, community sessions (events, blogs), and observing how a multi-service serverless system is assembled.
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
-
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+While learning, I tried to finish worklogs on time, experiment on the Console before asking mentors, and pick up new ideas when I hit unfamiliar concepts (IAM, networking, serverless, monitoring). My self-assessment:
 
 | No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
+| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ☐    | ✅    | ☐       |
+| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ✅    | ☐    | ☐       |
 | 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
+| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ☐    | ✅    | ☐       |
+| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ✅    | ☐    | ☐       |
+| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ✅    | ☐    | ☐       |
 | 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
 | 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
 | 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
 | 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ☐    | ✅    | ☐       |
+| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ☐    | ✅    | ☐       |
 
-### Needs Improvement
+### Strengths in my learning journey
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+* I can move from small labs (S3, EC2, RDS, Lambda…) to understanding a multi-component cloud architecture.
+* I keep notes of errors and fixes (Security Group, Free Tier, CORS, missing IAM permissions).
+* I learn actively from Cloud Journey materials, mentors, and community sessions.
+* I completed the required report package to organize what I learned.
+
+### Gaps to close for future projects
+
+* **Technical depth:** I know the main flows but am less solid on cost optimization, runtime troubleshooting, and resilient design (retry, monitoring).
+* **Technical presentation:** I still need shorter diagram-based explanations of cloud architecture.
+* **Documentation rhythm:** update worklogs more evenly instead of batching at week-end.
+* **IaC & CI/CD:** basics are familiar; I need more practice to recreate environments quickly later.
+
+### After the internship
+
+I want to keep growing toward **Backend / Cloud**: practice more AWS services, safer operating habits (cost, teardown, monitoring), and apply what I learned to **future real projects** after FCAJ.
